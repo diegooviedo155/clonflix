@@ -8,7 +8,7 @@ import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/UserSlice';
 import { useEffect } from 'react';
-import SingUp from './Pages/SingUp';
+
 
 
 function App() {

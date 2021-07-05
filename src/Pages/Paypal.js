@@ -1,15 +1,13 @@
 import { makeStyles } from '@material-ui/core';
-import React, { useEffect, useRef } from 'react'
-import { useSelector } from 'react-redux';
+import React, {  useRef } from 'react'
+// import { useSelector } from 'react-redux';
 import Header from '../components/Header';
-import { selectPrice } from '../features/PriceSlice';
+// import { selectPrice } from '../features/PriceSlice';
 
 const Paypal = () => {
     const classes = useStyle();
     const paypal = useRef();
-    const price = useSelector( selectPrice );
-
-
+    // const price = useSelector( selectPrice );
 
     // useEffect(() => {
     //     window.paypal.Buttons({

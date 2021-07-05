@@ -4,13 +4,10 @@ import ImageLogin from '../images/herobanner.jpg';
 import Logo from '../images/logo.png';
 import { NetflixButton, NetflixInput } from '../styles/styledcomponents';
 import SingUp from '../Pages/SingUp';
-import { useHistory } from 'react-router-dom';
 
 const Login = () => {
     const classes = useStyle();
     const [singIn, setSingIn] = useState(true);
-
-    const history = useHistory();
 
     const signIn = ()=>{
         setSingIn(false)
