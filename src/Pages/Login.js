@@ -27,17 +27,17 @@ const Login = () => {
                         <Fragment>
                             <NetflixButton onClick={signIn} className={classes.session}>Iniciar Sesión</NetflixButton>
                             <Typography variant="h4" gutterBottom>
-                                Un limited films, TV programmes and more.
+                            Películas y series ilimitadas y mucho más.
                             </Typography>
                             <Typography variant="h5">
-                                Watch anywhere. Cancel at any time.
+                            Disfruta donde quieras. Cancela cuando quieras.
                             </Typography>
                             <Typography variant="h6" gutterBottom>
-                                Ready yo whatch ? Enter your email to create or restart your membership.
+                            ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
                             </Typography>
                             <div className={classes.inputBlock}>
                                 <NetflixInput placeholder="Enter your email" />
-                                <NetflixButton>GER STARTED</NetflixButton>
+                                <NetflixButton>Comenzar</NetflixButton>
                             </div>
                         </Fragment>
                     )
